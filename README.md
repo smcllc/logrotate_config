@@ -34,7 +34,7 @@ cd logrotate_config
 Make the script executable:
 
 ```bash
-chmod +x logrotate_standardize.sh
+chmod +x logrotate_config.sh
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ chmod +x logrotate_standardize.sh
 To see what changes would be made without actually modifying any files:
 
 ```bash
-sudo ./logrotate_standardize.sh --dry-run
+sudo ./logrotate_config.sh --dry-run
 ```
 
 ### Apply Changes
@@ -52,7 +52,7 @@ sudo ./logrotate_standardize.sh --dry-run
 To apply the standardized configuration settings:
 
 ```bash
-sudo ./logrotate_standardize.sh
+sudo ./logrotate_config.sh
 ```
 
 ## How It Works
@@ -87,10 +87,17 @@ The script automatically creates backups of all configuration files before makin
 
 This script requires root privileges to modify system configuration files. Always review the script before running it with elevated privileges.
 
-## Contributing
+## Contribute
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+
 ## License
 
-[Insert your chosen license here]
+Copyright (C) 2035 Scott Moore
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
